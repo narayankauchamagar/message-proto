@@ -57,28 +57,9 @@
             </plugin>
         </plugins>
     </build>
-
-    <profiles>
-        <profile>
-            <id>github</id>
-            <repositories>
-                <repository>
-                    <id>central</id>
-                    <url>https://repo1.maven.org/maven2</url>
-                </repository>
-                <repository>
-                    <id>message-proto-java</id>
-                    <url>https://maven.pkg.github.com/narayankauchamagar/message-proto-java</url>
-                    <snapshots>
-                        <enabled>true</enabled>
-                    </snapshots>
-                </repository>
-            </repositories>
-        </profile>
-    </profiles>
     <distributionManagement>
         <repository>
-            <id>message-proto-java</id>
+            <id>github</id>
             <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/narayankauchamagar/message-proto-java</url>
         </repository>

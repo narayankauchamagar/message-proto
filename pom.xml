@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>np.com.thaparanayan</groupId>
-    <artifactId>message-proto</artifactId>
+    <artifactId>message-proto-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>message-proto</name>
     <description>message-proto</description>
